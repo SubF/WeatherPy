@@ -1,2 +1,5 @@
 # WeatherPy
-WeatherPy
+
+Files are missing .pngs and one csv file. I had to catch a flight so I didn't get a chance to finish... the from citipy import citipy was having issues where at first it said:
+#ImportError: cannot import name 'citipy' from 'citipy' (C:\Users\Nathan\Desktop\Class Folder\WeatherPy\Weather_Database\citipy.py)
+After using just import citipy and then switching back to the original from citipy import citipy code it worked once so I was able to get the original CVS file for Weather_Database. I realized I left off the city_description column so I went back and tried to edit it the next day which resulted in the same issue happening. I was not able to fix the issue from this point. I decided to use the time that I had to use the classwork and try to write the code as best as possible since it's partial points instead of submitting nothing. I'm not sure if it's a setup issue but I've installed and uninstalled citipy several times as well as looked at troubleshooting and made sure it was installed on PythonData. Will troubleshoot more to try to figure out what is wrong once I am back. 
